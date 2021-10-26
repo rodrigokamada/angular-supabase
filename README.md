@@ -563,7 +563,7 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 
 ![Application - Signed in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635167045/Blog/angular-supabase/application-step3_ffif28.png)
 
-**4.** Fill in the fields *Name* and *Website* and click on the button *Update* .
+**4.** Fill in the fields *Name* and *Website* and click on the button *Update*.
 
 ![Application - Profile](https://res.cloudinary.com/rodrigokamada/image/upload/v1635168762/Blog/angular-supabase/application-step4_pgwxvr.png)
 
