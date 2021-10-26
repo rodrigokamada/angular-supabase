@@ -40,7 +40,7 @@ Before you start, you need to install and configure the tools:
 
 **3.** Fill in the fields *Username or email address*, *Password* and click on the button *Sign in* to login with your GitHub account and if you don't have an account, click on the button *Create an account* to create a new account. [In this tutorial](https://github.com/rodrigokamada/angular-github-actions) there is a step-by-step guide to creating a GitHub account.
 
-![Supabase - Sign in to GitHub](https://res.cloudinary.com/rodrigokamada/image/upload/v1635016518/Blog/angular-supabase/supabase-step3_kyhhxs.png)
+![Supabase - Sign in to GitHub](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244871/Blog/angular-supabase/supabase-step3_khgaho.png)
 
 **4.** Click on the button *Authorize supabase*.
 
@@ -72,7 +72,7 @@ Before you start, you need to install and configure the tools:
 
 **11.** Click on the card *User Management Starter*.
 
-![Supabase - Scripts](https://res.cloudinary.com/rodrigokamada/image/upload/v1635161681/Blog/angular-supabase/supabase-step11_tyk9ou.png)
+![Supabase - Scripts](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244744/Blog/angular-supabase/supabase-step11_hsndej.png)
 
 **12.** Click on the button *RUN*.
 
@@ -543,15 +543,15 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 ✔ Compiled successfully.
 ```
 
-**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular-supabase).
+**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular12-supabase).
 
-![Angular Supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635164708/Blog/angular-supabase/angular-supabase_ynsr0e.png)
+![Angular Supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244373/Blog/angular-supabase/angular-supabase_slvk9k.png)
 
 
 
 ### Testing the application sign in
 
-**1.** Let's test the application sign in. Access the URL `http://localhost:4200/` and click on the button *Sign in*.
+**1.** Let's test the application sign in. Access the URL `http://localhost:4200/`, fill in the field *Email* and click on the button *Sign in*.
 
 ![Application - Sign in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635166098/Blog/angular-supabase/application-step1_siuxd0.png)
 
