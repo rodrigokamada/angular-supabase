@@ -1,7 +1,7 @@
 # Angular Supabase
 
 
-Application example built with [Angular 12](https://angular.io/) with authentication using the [Supabase](https://supabase.io/) service.
+Application example built with [Angular](https://angular.io/) 13 with authentication using the [Supabase](https://supabase.io/) service.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/autenticacao-usando-o-supabase-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/authentication-using-the-supabase-to-an-angular-application-2jek) in english.
 
@@ -32,51 +32,51 @@ Before you start, you need to install and configure the tools:
 
 **1.** Let's create the account. Access the site [https://supabase.io/](https://supabase.io/) and click on the button *Start your project*.
 
-![Supabase - Initial page](https://res.cloudinary.com/rodrigokamada/image/upload/v1635016136/Blog/angular-supabase/supabase-step1_d33jq6.png)
+![Supabase - Home page](https://res.cloudinary.com/rodrigokamada/image/upload/v1635016136/Blog/angular-supabase/supabase-step1.png)
 
 **2.** Click on the button *Continue with GitHub*.
 
-![Supabase - Sign in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635016136/Blog/angular-supabase/supabase-step2_r4fyxo.png)
+![Supabase - Sign in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635016136/Blog/angular-supabase/supabase-step2.png)
 
 **3.** Fill in the fields *Username or email address*, *Password* and click on the button *Sign in* to login with your GitHub account and if you don't have an account, click on the button *Create an account* to create a new account. [In this tutorial](https://github.com/rodrigokamada/angular-github-actions) there is a step-by-step guide to creating a GitHub account.
 
-![Supabase - Sign in to GitHub](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244871/Blog/angular-supabase/supabase-step3_khgaho.png)
+![Supabase - Sign in to GitHub](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244871/Blog/angular-supabase/supabase-step3.png)
 
 **4.** Click on the button *Authorize supabase*.
 
-![Supabase - Authorize supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635019829/Blog/angular-supabase/supabase-step4_n11pot.png)
+![Supabase - Authorize supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635019829/Blog/angular-supabase/supabase-step4.png)
 
 **5.** Click on the button *New project*.
 
-![Supabase - New project](https://res.cloudinary.com/rodrigokamada/image/upload/v1635019925/Blog/angular-supabase/supabase-step5_pv91hd.png)
+![Supabase - New project](https://res.cloudinary.com/rodrigokamada/image/upload/v1635019925/Blog/angular-supabase/supabase-step5.png)
 
 **6.** Click on the menu with the organization name created automatically.
 
-![Supabase - Choose organization](https://res.cloudinary.com/rodrigokamada/image/upload/v1635081922/Blog/angular-supabase/supabase-step6_undnpg.png)
+![Supabase - Choose organization](https://res.cloudinary.com/rodrigokamada/image/upload/v1635081922/Blog/angular-supabase/supabase-step6.png)
 
 **7.** Select an *Organization*, fill in the fields *Name* and *Database Password*, select a *Region* and click on the button *Create new project*.
 
-![Supabase - Create a new project](https://res.cloudinary.com/rodrigokamada/image/upload/v1635081922/Blog/angular-supabase/supabase-step7_fbeytc.png)
+![Supabase - Create a new project](https://res.cloudinary.com/rodrigokamada/image/upload/v1635081922/Blog/angular-supabase/supabase-step7.png)
 
 **8.** Wait for the project creation.
 
-![Supabase - Setting up the project](https://res.cloudinary.com/rodrigokamada/image/upload/v1635089223/Blog/angular-supabase/supabase-step8_edom10.png)
+![Supabase - Setting up the project](https://res.cloudinary.com/rodrigokamada/image/upload/v1635089223/Blog/angular-supabase/supabase-step8.png)
 
 **9.** Click on the button *Copy* to copy the key that has been generated, in my case, the key `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzNTA4NjA1MCwiZXhwIjoxOTUwNjYyMDUwfQ.CzFuYS6XKvEwW5OsAAPAcHvuo-NVE4PUwDSKgqK9Yas` was copied and click on the button *Copy* to copy the URL that has been generated, in my case, the URL `https://wzlpmcsxrxogtctlznel.supabase.co` was copied becouse this key and URL will be configured in the Angular application.
 
-![Supabase - New project created](https://res.cloudinary.com/rodrigokamada/image/upload/v1635104408/Blog/angular-supabase/supabase-step9_drzkfd.png)
+![Supabase - New project created](https://res.cloudinary.com/rodrigokamada/image/upload/v1635104408/Blog/angular-supabase/supabase-step9.png)
 
 **10.** Click on the menu *SQL* to setting up the database schema.
 
-![Supabase - SQL](https://res.cloudinary.com/rodrigokamada/image/upload/v1635161259/Blog/angular-supabase/supabase-step10_uxebyv.png)
+![Supabase - SQL](https://res.cloudinary.com/rodrigokamada/image/upload/v1635161259/Blog/angular-supabase/supabase-step10.png)
 
 **11.** Click on the card *User Management Starter*.
 
-![Supabase - Scripts](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244744/Blog/angular-supabase/supabase-step11_hsndej.png)
+![Supabase - Scripts](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244744/Blog/angular-supabase/supabase-step11.png)
 
 **12.** Click on the button *RUN*.
 
-![Supabase - User Management Starter](https://res.cloudinary.com/rodrigokamada/image/upload/v1635170492/Blog/angular-supabase/supabase-step12_rtpcvi.png)
+![Supabase - User Management Starter](https://res.cloudinary.com/rodrigokamada/image/upload/v1635170492/Blog/angular-supabase/supabase-step12.png)
 
 **13.** Ready! Account created, key generated and database schema configured.
 
@@ -543,9 +543,9 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 ✔ Compiled successfully.
 ```
 
-**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular12-supabase).
+**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular13-supabase).
 
-![Angular Supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244373/Blog/angular-supabase/angular-supabase_slvk9k.png)
+![Angular Supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244373/Blog/angular-supabase/angular-supabase.png)
 
 
 
@@ -553,31 +553,31 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 
 **1.** Let's test the application sign in. Access the URL `http://localhost:4200/`, fill in the field *Email* and click on the button *Sign in*.
 
-![Application - Sign in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635166098/Blog/angular-supabase/application-step1_siuxd0.png)
+![Application - Sign in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635166098/Blog/angular-supabase/application-step1.png)
 
 **2.** Open the email with the subject *Confirm Your Signup* and click on the link *Confirm your mail*.
 
-![Application - Sign up email](https://res.cloudinary.com/rodrigokamada/image/upload/v1635165975/Blog/angular-supabase/application-step2_drdbzy.png)
+![Application - Sign up email](https://res.cloudinary.com/rodrigokamada/image/upload/v1635165975/Blog/angular-supabase/application-step2.png)
 
 **3.** At this point, you are already signed in. Click on the menu *Profile*.
 
-![Application - Signed in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635167045/Blog/angular-supabase/application-step3_ffif28.png)
+![Application - Signed in](https://res.cloudinary.com/rodrigokamada/image/upload/v1635167045/Blog/angular-supabase/application-step3.png)
 
 **4.** Fill in the fields *Name* and *Website* and click on the button *Update*.
 
-![Application - Profile](https://res.cloudinary.com/rodrigokamada/image/upload/v1635168762/Blog/angular-supabase/application-step4_pgwxvr.png)
+![Application - Profile](https://res.cloudinary.com/rodrigokamada/image/upload/v1635168762/Blog/angular-supabase/application-step4.png)
 
 **5.** Go back to the Supabase site and click on the menu *New query*.
 
-![Supabase - SQL](https://res.cloudinary.com/rodrigokamada/image/upload/v1635169378/Blog/angular-supabase/supabase-step13_g4p7lr.png)
+![Supabase - SQL](https://res.cloudinary.com/rodrigokamada/image/upload/v1635169378/Blog/angular-supabase/supabase-step13.png)
 
 **6.** Fill in the text field with *SELECT * FROM profiles;* content and click on the button *RUN*.
 
-![Supabase - New query](https://res.cloudinary.com/rodrigokamada/image/upload/v1635170129/Blog/angular-supabase/supabase-step14_jakojs.png)
+![Supabase - New query](https://res.cloudinary.com/rodrigokamada/image/upload/v1635170129/Blog/angular-supabase/supabase-step14.png)
 
 **7.** Check the updated fields *username* and *website*.
 
-![Supabase - Query result](https://res.cloudinary.com/rodrigokamada/image/upload/v1635170492/Blog/angular-supabase/supabase-step15_ca9nfx.png)
+![Supabase - Query result](https://res.cloudinary.com/rodrigokamada/image/upload/v1635170492/Blog/angular-supabase/supabase-step15.png)
 
 **8.** Ready! We test the application sign in and profile update. Supabase documentation is available at [https://supabase.io/docs](https://supabase.io/docs).
 

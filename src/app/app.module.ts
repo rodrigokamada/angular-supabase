@@ -9,17 +9,17 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProfileComponent,
-    SignInComponent,
-  ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
   ],
   providers: [
+  ],
+  declarations: [
+    AppComponent,
+    ProfileComponent,
+    SignInComponent,
   ],
   bootstrap: [
     AppComponent,
