@@ -1,7 +1,7 @@
 # Angular Supabase
 
 
-Application example built with [Angular](https://angular.io/) 13 with authentication using the [Supabase](https://supabase.io/) service.
+Application example built with [Angular](https://angular.io/) 14 with authentication using the [Supabase](https://supabase.io/) service.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/autenticacao-usando-o-supabase-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/authentication-using-the-supabase-to-an-angular-application-2jek) in english.
 
@@ -543,7 +543,7 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 ✔ Compiled successfully.
 ```
 
-**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular13-supabase).
+**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular14-supabase).
 
 ![Angular Supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244373/Blog/angular-supabase/angular-supabase.png)
 
