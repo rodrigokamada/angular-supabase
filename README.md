@@ -1,7 +1,7 @@
 # Angular Supabase
 
 
-Application example built with [Angular](https://angular.io/) 14 with authentication using the [Supabase](https://supabase.io/) service.
+Application example built with [Angular](https://angular.io/) 15 with authentication using the [Supabase](https://supabase.io/) service.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/autenticacao-usando-o-supabase-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/authentication-using-the-supabase-to-an-angular-application-2jek) in english.
 
