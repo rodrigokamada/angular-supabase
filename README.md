@@ -544,7 +544,7 @@ For more info see: https://angular.io/guide/build#configuring-commonjs-dependenc
 ✔ Compiled successfully.
 ```
 
-**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular14-supabase).
+**18.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-supabase/) and [Stackblitz](https://stackblitz.com/edit/angular15-supabase).
 
 ![Angular Supabase](https://res.cloudinary.com/rodrigokamada/image/upload/v1635244373/Blog/angular-supabase/angular-supabase.png)
 
